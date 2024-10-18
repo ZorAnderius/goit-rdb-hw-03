@@ -3,27 +3,29 @@
 ## Content
 
 - [Task1](#Task1)
-- [Task1.1](#Task1.1)
-- [Task1.2](#Task1.2)
+- [Task1-1](#Task1-1)
+- [Task1-2](#Task1-2)
 - [Task3](#Task3)
-- [Task4](#1Task4)
+- [Task4](#Task4)
 - [Task5](#Task5)
 
 ## Task1
 
 Write an SQL command that allows you to:
 
-## Task1.1
+## Task1-1
 
 - select all columns (Using the wildcard “\*”) from the products table;
 
 SQL queries:
 
-`` mysql SELECT * FROM `hw2`.`products`;  ``
+``` mysql 
+    SELECT * FROM `hw2`.`products`; 
+```
 
 ![](1.productAll.png)
 
-## Task1.2
+## Task1-2
 
 - select only the name, phone columns from the shippers table,
 
