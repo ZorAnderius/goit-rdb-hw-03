@@ -1,0 +1,22 @@
+1.  SELECT * FROM `hw2`.`products`;
+
+2.  SELECT name, phone
+    FROM `hw2`.`shippers`;
+
+
+3.  SELECT min(price) as 'Min price', max(price) as 'Max price', avg(price) as 'Average price' 
+    FROM `hw2`.`products`;
+
+4.  SELECT distinct category_id, price 
+    FROM `hw2`.`products` 
+    ORDER BY price desc 
+    limit 10;
+
+5.  SELECT count(*) as 'total products'
+    FROM `hw2`.`products`
+    WHERE price > 20 and price < 100;
+
+
+6.  SELECT supplier_id, count(*) as 'Supplier counts', avg(price) as 'Average price'
+    FROM `hw2`.`products`
+    GROUP BY supplier_id;
