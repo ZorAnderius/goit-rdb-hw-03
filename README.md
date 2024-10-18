@@ -23,6 +23,8 @@ SQL queries:
     SELECT * FROM `hw2`.`products`; 
 ```
 
+Result:
+
 ![](1.productAll.png)
 
 ## Task1-2
@@ -36,6 +38,9 @@ SQL queries:
     FROM `hw2`.`shippers`;
 ```
 
+Result:
+
+
 ![](2.Name_Phone_shippers.png)
 
 ## Task2
@@ -48,6 +53,10 @@ SQL queries:
     SELECT min(price) as 'Min price', max(price) as 'Max price', avg(price) as 'Average price'
     FROM `hw2`.`products`;
 ```
+
+
+Result:
+
 
 ![](3.MinMaxAvgPrice.png)
 
@@ -66,6 +75,9 @@ SQL queries:
     LIMIT 10;
 ```
 
+Result:
+
+
 ![](4.DistinctDescPrice.png)
 
 ## Task4
@@ -80,6 +92,8 @@ SQL queries:
     WHERE price > 20 and price < 100;
 ```
 
+Result:
+
 ![](5.CountTotalProduct.png)
 
 ## Task5
@@ -93,5 +107,7 @@ SQL queries:
     FROM `hw2`.`products`
     GROUP BY supplier_id;
 ```
+
+Result:
 
 ![](6.Supplier&Avg_price.png)
